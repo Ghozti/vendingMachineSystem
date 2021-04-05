@@ -1,6 +1,6 @@
 package ghozti.vendingsim.mainSystem;
 
-import ghozti.vendingsim.constants.Bill;
+import ghozti.vendingsim.items.Bill;
 
 public class BillIntake {
 

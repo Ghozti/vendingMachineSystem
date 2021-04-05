@@ -1,4 +1,4 @@
-package ghozti.vendingsim.constants;
+package ghozti.vendingsim.items;
 
 public class Bill {
 
