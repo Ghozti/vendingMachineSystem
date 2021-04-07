@@ -8,7 +8,8 @@ public class ItemPusher {
             return;
         }else{
             var snack = holder.snacks.get(holder.snacks.size());
-            System.out.println("");//TODO add a push item constant
+            System.out.println("".concat(snack.getName()));//TODO add a push item constant
+            holder.snacks.remove(holder.snacks.size());
         }
     }
 }
