@@ -4,6 +4,7 @@ import ghozti.vendingsim.items.Bill;
 
 public class BillIntake {
 
+    //this method
     public void intakeBill(Bill bill){
         if (checkValidity(bill.getValid())){
             //TODO do the vending process
