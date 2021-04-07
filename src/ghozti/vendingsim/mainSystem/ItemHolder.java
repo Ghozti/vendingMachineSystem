@@ -14,4 +14,12 @@ public class ItemHolder {
         itemStock = stock;
         this.number = number;
     }
+
+    public int getStock(){
+        return itemStock;
+    }
+
+    public int getNumber(){
+        return number;
+    }
 }
