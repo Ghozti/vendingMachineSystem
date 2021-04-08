@@ -1,6 +1,7 @@
 package ghozti.vendingsim.mainSystem;
 
 import ghozti.vendingsim.constants.Constants;
+import ghozti.vendingsim.items.Snack;
 
 public class ItemPusher {
 
