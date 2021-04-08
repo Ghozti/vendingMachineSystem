@@ -1,5 +1,6 @@
 package ghozti.vendingsim.mainSystem;
 
+import ghozti.vendingsim.constants.Constants;
 import ghozti.vendingsim.items.Bill;
 
 public class BillIntake {
@@ -15,7 +16,7 @@ public class BillIntake {
 
     public boolean checkValidity(boolean billValidity){
         if (!billValidity){
-            System.err.println();//TODO ADD INVALID BILL CONSTANT
+            System.err.println(Constants.Errors.invalidBill);
             return false;
         }
         return true;
